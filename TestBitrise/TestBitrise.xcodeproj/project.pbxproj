@@ -16,6 +16,7 @@
 		FC0B7BC727BCAA92003C97D3 /* TestBitriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B7BC627BCAA92003C97D3 /* TestBitriseTests.swift */; };
 		FC0B7BD127BCAA92003C97D3 /* TestBitriseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B7BD027BCAA92003C97D3 /* TestBitriseUITests.swift */; };
 		FC0B7BD327BCAA92003C97D3 /* TestBitriseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B7BD227BCAA92003C97D3 /* TestBitriseUITestsLaunchTests.swift */; };
+		FC0B7BE027BCD0E0003C97D3 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0B7BDF27BCD0E0003C97D3 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FC0B7BCC27BCAA92003C97D3 /* TestBitriseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBitriseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0B7BD027BCAA92003C97D3 /* TestBitriseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBitriseUITests.swift; sourceTree = "<group>"; };
 		FC0B7BD227BCAA92003C97D3 /* TestBitriseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBitriseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC0B7BDF27BCD0E0003C97D3 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				FC0B7BC627BCAA92003C97D3 /* TestBitriseTests.swift */,
+				FC0B7BDF27BCD0E0003C97D3 /* TestViewController.swift */,
 			);
 			path = TestBitriseTests;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0B7BE027BCD0E0003C97D3 /* TestViewController.swift in Sources */,
 				FC0B7BC727BCAA92003C97D3 /* TestBitriseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85QNX3D8R7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestBitrise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -455,7 +460,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,6 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85QNX3D8R7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestBitrise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -493,6 +499,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85QNX3D8R7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -512,6 +519,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85QNX3D8R7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
