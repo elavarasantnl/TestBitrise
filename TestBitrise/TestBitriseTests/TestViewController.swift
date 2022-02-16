@@ -23,7 +23,7 @@ class TestViewController: XCTestCase {
         let st = UIStoryboard(name: "Main", bundle: nil)
         
         let myViewController = st.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-        _ = myViewController.view
+        _ = myViewController.view 
         XCTAssertTrue(myViewController.label.text == "Hello World")
 
     }
